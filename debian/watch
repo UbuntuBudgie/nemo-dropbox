@@ -1,0 +1,4 @@
+version=3
+http://packages.linuxmint.com/pool/backport/n/nemo-dropbox/ \
+    nemo-dropbox_([\d.]+)%2b[\w\d]+\.tar\.gz
+
