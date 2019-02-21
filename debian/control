@@ -26,7 +26,7 @@ Depends: nemo,
          dropbox
 Suggests: python-gpgme (>= 0.1)
 Description: Dropbox integration for Nemo
-Nemo Dropbox is an extension that integrates the Dropbox web service with
+ Nemo Dropbox is an extension that integrates the Dropbox web service with
  your desktop.
  .
  Installing this package will download the proprietary dropbox binary
