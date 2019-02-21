@@ -26,7 +26,8 @@ Depends: nemo,
          dropbox
 Suggests: python-gpgme (>= 0.1)
 Description: Dropbox integration for Nemo
- Dropbox is a proprietary cloud based web-service to enable you to
- save files off your computer.
- Nemo Dropbox is an extension that integrates the Dropbox web service with
- your budgie desktop.
+Nemo Dropbox is an extension that integrates the Dropbox web service with
+ your desktop.
+ .
+ Installing this package will download the proprietary dropbox binary
+ from dropbox.com.
