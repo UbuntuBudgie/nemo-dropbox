@@ -12,9 +12,8 @@ override_dh_makeshlibs:
 override_dh_auto_install:
 	dh_auto_install
 	# Drop useless files
-	rm -f debian/nemo-dropbox/usr/lib/*/nemo/extensions-*/libnemo-dropbox.a
-	rm -f debian/nemo-dropbox/usr/lib/*/nemo/extensions-*/libnemo-dropbox.la
-	rm -f debian/nemo-dropbox/usr/bin/dropbox
-	rm -rf debian/nemo-dropbox/usr/share/applications
-	rm -rf debian/nemo-dropbox/usr/share/icons
-	rm -rf debian/nemo-dropbox/usr/share/man
+	rm -f debian/nemo-dropbox/usr/lib/$(DEB_HOST_MULTIARCH)/nemo/extensions-*/libnemo-dropbox.a
+	rm -f debian/nemo-dropbox/usr/lib/$(DEB_HOST_MULTIARCH)/nemo/extensions-*/libnemo-dropbox.la
+#	rm -rf debian/nemo-dropbox/usr/share/applications
+#	rm -rf debian/nemo-dropbox/usr/share/icons
+#	rm -rf debian/nemo-dropbox/usr/share/man
