@@ -1,3 +1,15 @@
+nemo-dropbox (4.4.0-0ubuntu1~focal) focal; urgency=medium
+
+  * Take 4.4.0 nemo-dropbox source from upstream nemo-extensions repo
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 28 Feb 2020 22:21:03 +0000
+
+nemo-dropbox (4.0.0-0ubuntu1~eoan) eoan; urgency=medium
+
+  * eoan rebuild
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Sep 2019 22:13:54 +0100
+
 nemo-dropbox (4.0.0-0ubuntu1~disco) disco; urgency=medium
 
   * Initial Release
