@@ -1,3 +1,9 @@
+nemo-dropbox (4.4.0-0ubuntu3~focal) focal; urgency=medium
+
+  * Add dropbox or nautilus dropbox as dependent packages
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 06 Apr 2020 07:21:06 +0100
+
 nemo-dropbox (4.4.0-0ubuntu2~focal) focal; urgency=medium
 
   * Patch to not install dropbox icons

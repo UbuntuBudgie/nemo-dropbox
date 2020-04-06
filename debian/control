@@ -15,6 +15,7 @@ Architecture: any
 Depends: nemo,
          policykit-1,
          procps,
+         dropbox | nautilus-dropbox,
          ${shlibs:Depends},
          ${misc:Depends}
 Description: Dropbox integration for Nemo
